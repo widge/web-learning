@@ -1,0 +1,20 @@
+{
+  "name": "web-learning",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/widge/web-learning#readme",
+  "bugs": {
+    "url": "https://github.com/widge/web-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widge/web-learning.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

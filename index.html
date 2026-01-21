@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SForest Spirit Worksho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Forest Spirit Workshop</h1>
+    <p class="subtitle">Code your own, in no way Zelda related, spirit creature</p>
+
+    <div class="main-grid">
+        <!-- Creature Display -->
+        <div class="creature-panel">
+            <div class="creature-container">
+                <div class="creature" id="creature">
+                    <div class="wings" id="wings">
+                        <div class="wing wing-left"></div>
+                        <div class="wing wing-right"></div>
+                    </div>
+
+                    <div class="tail" id="tail">
+                        <div class="tail-segment"></div>
+                        <div class="tail-segment"></div>
+                        <div class="tail-segment"></div>
+                    </div>
+
+                    <div class="glow-ring" id="glowRing"></div>
+
+                    <div class="orb">
+                        <div class="core"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+
+                    <div class="creature-name" id="creatureName">Forest Spirit</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions-panel">
+            <h2>🎯 Your Coding Challenges:</h2>
+            <p style="font-size: 14px;margin:-5px 0 20px 5px">Dont be afraid to ask if you have any questions!</p>
+
+            <div class="challenge">
+                <h3>Challenge 1: Name Your Creature</h3>
+                <p>Find this line in the code:</p>
+                <div class="code">let creatureName = 'Forest Spirit';</div>
+                <p>Change <span class="inline-code">'Forest Spirit'</span> to any name you like</p>
+                <p>Try: <span class="inline-code">'Navi'</span> or  <span class="inline-code">'Kodama'</span></p>
+            </div>
+
+            <div class="challenge">
+                <h3>Challenge 2: Change the Glow Color</h3>
+                <p>Find this line:</p>
+                <div class="code">let creatureColor = '#00d4ff';</div>
+                <p>Try changing it to one of the hex colours below:</p>
+                <p><span class="inline-code">'#ff006e'</span> for pink/magenta</p>
+                <p><span class="inline-code">'#00ff88'</span> for green</p>
+                <p><span class="inline-code">'#ffaa00'</span> for orange</p>
+                <p><span class="inline-code">'#aa00ff'</span> for purple</p>
+            </div>
+
+            <div class="challenge">
+                <h3>Challenge 3: Add Wings</h3>
+                <p>Find this line:</p>
+                <div class="code">let hasWings = false;</div>
+                <p>Change <span class="inline-code">false</span> to <span class="inline-code">true</span></p>
+            </div>
+
+            <div class="challenge">
+                <h3>Challenge 4: Add a Tail Trail</h3>
+                <p>Find this line:</p>
+                <div class="code">let hasTail = false;</div>
+                <p>Change <span class="inline-code">false</span> to <span class="inline-code">true</span></p>
+            </div>
+
+            <div class="challenge">
+                <h3>Challenge 5: Change the Size</h3>
+                <p>This time look in styles.css and find the section with the heading:</p>
+                <div class="code">/* Size variation */</div>
+                <p>Inside this section find the following line:</p>
+                <div class="code"> transform: scale(1);</div>
+                <p>Try changing the <span class="inline-code">scale(1)</span> to:</p>
+                <p><span class="inline-code">scale(0.4)</span> for a small creature</p>
+                <p><span class="inline-code">scale(1.8)</span> for a big creature</p>
+                <p>Test out difference values to alter its size</p>
+            </div>
+
+            <div class="challenge">
+                <h3>Challenge 6: Add Glow Rings</h3>
+                <p>Find this line:</p>
+                <div class="code">let showGlow = false;</div>
+                <p>Change <span class="inline-code">false</span> to <span class="inline-code">true</span></p>
+            </div>
+
+            <div class="bonus">
+                <h3>🌟 Bonus Challenge:</h3>
+                <p>Help your creature annoy its friends by shouting Heyy!! whenever you click on it!</p>
+                <ol>
+                    <li >First google "how to make an alert in javascript"</li>
+                    <li>Once you find the code you think you need (it should only be one line) search through the project's javascript.js file for where you think it needs to go
+                        <ul style="margin-left: 20px; margin-top: 10px;">
+                            <li>Hint look for a "click" event</li>
+                        </ul>
+                    </li>
+                    <li>Add your code, save it and test it out!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
